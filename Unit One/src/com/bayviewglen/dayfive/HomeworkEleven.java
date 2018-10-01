@@ -13,7 +13,6 @@ public class HomeworkEleven {
 		double ke = 0.5 * mass * Math.pow(speed, 2);
 		System.out.println("Kinetic Energy is: " + ke);
 		
-
 	}
-
+	
 }
