@@ -111,7 +111,25 @@ public class Main {
 		double runnerFiveSplitThree = toSeconds(temp);
 		// Print all information
 		printSummary(runnerFiveSplitOne, runnerFiveSplitTwo, runnerFiveSplitThree, "Five", runnerFiveFirstName, runnerFiveLastName);
-	
+		
+		// Final Table
+		System.out.println("Bayview Glen Cross Country Results:\n");
+		System.out.printf("%-24s %-24s %-24s %-24s %-24s\n", "Name", "Split One", "Split Two", "Split Three", "Finish Time");
+		System.out.printf("%-24s %-24s %-24s %-24s %-24s\n", "----", "---------", "---------", "-----------", "-----------");
+		// Put in form "LastName, FirstName", remove and add spaces where necessary
+		String runnerOneNameReverse = runnerOneLastName.substring(1) + ", " + runnerOneFirstName;
+		String runnerTwoNameReverse = runnerTwoLastName.substring(1) + ", " + runnerTwoFirstName;
+		String runnerThreeNameReverse = runnerThreeLastName.substring(1) + ", " + runnerThreeFirstName;
+		String runnerFourNameReverse = runnerFourLastName.substring(1) + ", " + runnerFourFirstName;
+		String runnerFiveNameReverse = runnerFiveLastName.substring(1) + ", " + runnerFiveFirstName;
+		
+		// Display all runner info
+		System.out.printf("%-24s %02d:%06.3f                %02d:%06.3f                %02d:%06.3f                %02d:%06.3f\n", runnerOneNameReverse, getMinutes(runnerOneSplitOne), getSeconds(runnerOneSplitOne), getMinutes(runnerOneSplitTwo - runnerOneSplitOne), getSeconds(runnerOneSplitTwo - runnerOneSplitOne), getMinutes(runnerOneSplitThree - runnerOneSplitTwo), getSeconds(runnerOneSplitThree - runnerOneSplitTwo), getMinutes(runnerOneSplitThree), getSeconds(runnerOneSplitThree));
+		System.out.printf("%-24s %02d:%06.3f                %02d:%06.3f                %02d:%06.3f                %02d:%06.3f\n", runnerTwoNameReverse, getMinutes(runnerTwoSplitOne), getSeconds(runnerTwoSplitOne), getMinutes(runnerTwoSplitTwo - runnerTwoSplitOne), getSeconds(runnerTwoSplitTwo - runnerTwoSplitOne), getMinutes(runnerTwoSplitThree - runnerTwoSplitTwo), getSeconds(runnerTwoSplitThree - runnerTwoSplitTwo), getMinutes(runnerTwoSplitThree), getSeconds(runnerTwoSplitThree));
+		System.out.printf("%-24s %02d:%06.3f                %02d:%06.3f                %02d:%06.3f                %02d:%06.3f\n", runnerThreeNameReverse, getMinutes(runnerThreeSplitOne), getSeconds(runnerThreeSplitOne), getMinutes(runnerThreeSplitTwo - runnerThreeSplitOne), getSeconds(runnerThreeSplitTwo - runnerThreeSplitOne), getMinutes(runnerThreeSplitThree - runnerThreeSplitTwo), getSeconds(runnerThreeSplitThree - runnerThreeSplitTwo), getMinutes(runnerThreeSplitThree), getSeconds(runnerThreeSplitThree));
+		System.out.printf("%-24s %02d:%06.3f                %02d:%06.3f                %02d:%06.3f                %02d:%06.3f\n", runnerFourNameReverse, getMinutes(runnerFourSplitOne), getSeconds(runnerFourSplitOne), getMinutes(runnerFourSplitTwo - runnerFourSplitOne), getSeconds(runnerFourSplitTwo - runnerFourSplitOne), getMinutes(runnerFourSplitThree - runnerFourSplitTwo), getSeconds(runnerFourSplitThree - runnerFourSplitTwo), getMinutes(runnerFourSplitThree), getSeconds(runnerFourSplitThree));
+		System.out.printf("%-24s %02d:%06.3f                %02d:%06.3f                %02d:%06.3f                %02d:%06.3f\n", runnerFiveNameReverse, getMinutes(runnerFiveSplitOne), getSeconds(runnerFiveSplitOne), getMinutes(runnerFiveSplitTwo - runnerFiveSplitOne), getSeconds(runnerFiveSplitTwo - runnerFiveSplitOne), getMinutes(runnerFiveSplitThree - runnerFiveSplitTwo), getSeconds(runnerFiveSplitThree - runnerFiveSplitTwo), getMinutes(runnerFiveSplitThree), getSeconds(runnerFiveSplitThree));
+		
 	
 	}
 	
@@ -129,14 +147,18 @@ public class Main {
 		double time = minutes * 60 + seconds;
 		return time;
 	}
-	// get seconds value in original form
+	/* Get seconds value in original form
+	 * Take the decimal part of the quotient and multiplies it by 60
+	 */
 	public static double getSeconds(double sec) {
 		double minutes = sec/60;
 		String decimal = "0" + String.valueOf(minutes).substring(String.valueOf(minutes).indexOf("."));
 		String secondPart = String.valueOf(60 * Double.parseDouble(decimal));
 		return Double.parseDouble(secondPart);
 	}
-	// Get minutes value in original form
+	/* Get minutes value in original form
+	 * Divide second value by 60 and cast as int to truncate decimal
+	*/
 	public static int getMinutes(double sec) {
 		double minutes = sec/60;
 		String firstPart = String.valueOf((int)minutes);
@@ -147,10 +169,11 @@ public class Main {
 		System.out.println("Runner " + runnerNumber + " Summary");
 		System.out.println("******************\n");
 		System.out.println("Runner: " + runnerLastName.substring(1) + ", " + runnerFirstName);
+		// Using printf to add 0s into correct places, and shrink decimals
 		System.out.printf("Split One: %02d:%06.3f\n", getMinutes(splitOne), getSeconds(splitOne));
 		System.out.printf("Split Two: %02d:%06.3f\n", getMinutes(splitTwo - splitOne), getSeconds(splitTwo - splitOne));
 		System.out.printf("Split Three: %02d:%06.3f\n", getMinutes(splitThree - splitTwo), getSeconds(splitThree - splitTwo));
-		System.out.printf("Total: %02d:%06.3f", getMinutes(splitThree), getSeconds(splitThree));
+		System.out.printf("Total: %02d:%06.3f\n", getMinutes(splitThree), getSeconds(splitThree));
 		
 	}
 }
