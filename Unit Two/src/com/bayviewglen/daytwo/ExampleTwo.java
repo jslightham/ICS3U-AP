@@ -29,7 +29,7 @@ public class ExampleTwo {
 		// minutes * 60 + seconds
 		// minutes / 60 - seconds
 		
-
+		in.close();
 	}
 
 }
