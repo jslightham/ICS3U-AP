@@ -102,10 +102,9 @@ public class ThreeCardPoker {
 						else
 							playerHandValue[i] = 13;
 					}
+					
 				}
-
 				Arrays.sort(playerHandValue);
-
 			}
 		}
 	}
@@ -204,8 +203,18 @@ public class ThreeCardPoker {
 
 	public static int getHandValue(int[] handValue, String[] hand) {
 		int value = 0;
-		if (handValue[0] == ++handValue[1] && handValue[1] == ++handValue[2])
-			value = STRAIGHT_FLUSH;
+		if ((handValue[0] == ++handValue[1] && handValue[1] == ++handValue[2]) ) {
+			value += STRAIGHT_FLUSH;
+			value += handValue[0] + handValue[1] + handValue[2];
+		}
+		else if(handValue[0] == handValue[1] && handValue[0] == handValue[2] && handValue[1] == handValue[2]) {
+			value += THREE_OF_A_KIND;
+			value += handValue[0] + handValue[1] + handValue[2];
+		}
+		else if((hand[0].contains("D") && hand[1].contains("D") && hand[2].contains("D")) || (hand[0].contains("C") && hand[1].contains("C") && hand[2].contains("C")) || (hand[0].contains("H") && hand[1].contains("H") && hand[2].contains("H")))
+			
+			
+		return value;
 		
 	}
 
