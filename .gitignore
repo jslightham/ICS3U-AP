@@ -24,3 +24,21 @@ hs_err_pid*
 
 .metadata/
 .recommenders/
+Unit 3/.classpath
+Unit 3/.project
+Unit 3/.settings/org.eclipse.jdt.core.prefs
+Unit Three/.classpath
+Unit Three/.project
+Unit Three/.settings/org.eclipse.jdt.core.prefs
+*.iml
+*.xml
+*.xml
+Unit Four/.project
+Unit Four/.classpath
+Unit Five/.settings/org.eclipse.jdt.core.prefs
+Unit Five/.project
+Unit Five/.classpath
+Unit Three/.idea/misc.xml
+Unit Three/Unit Three.iml
+Unit Three/Unit Three.iml
+Unit Four/.settings/org.eclipse.jdt.core.prefs
