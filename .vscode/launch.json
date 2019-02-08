@@ -1,0 +1,497 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFour<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleFour",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleOne",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleThree<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleThree",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleTwo",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-APFR2013Q1<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.APFR2013Q1",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ForEachRestriction<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.ForEachRestriction",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-APFR2017Q1<Unit Five>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.APFR2017Q1",
+            "projectName": "Unit Five"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Four>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleOne",
+            "projectName": "Unit Four"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.assignment.Main",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayeight.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayeight.ExampleTwo",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkEight<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkEight",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkEleven<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkEleven",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkFive<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkFive",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkFour<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkFour",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkNine<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkNine",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkOne<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkSeven<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkSeven",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkSix<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkSix",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkTen<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkTen",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkThree<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkThree",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkTwo<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.HomeworkTwo",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFour<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.ExampleFour",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleThree<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.ExampleThree",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit One>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.ExampleTwo",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkOne<Unit One>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.HomeworkOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>(2)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkOne<Unit One>(2)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.HomeworkOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>(3)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayseven.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>(4)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daysix.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BayviewGlenPools<Unit One>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.BayviewGlenPools",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFour<Unit One>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.ExampleFour",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>(5)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleThree<Unit One>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.ExampleThree",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit One>(2)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.ExampleTwo",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit One>(6)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit One>(3)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleTwo",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HomeworkOne<Unit One>(3)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.HomeworkOne",
+            "projectName": "Unit One"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-review<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.review",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-APFR2018Q4<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.APFR2018Q4",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfour.ExampleOne",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFive<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleFive",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFour<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleFour",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Three>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleOne",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleSix<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleSix",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleThree<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleThree",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleTwo",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SortingSearchingAlgorithms<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daythree.SortingSearchingAlgorithms",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleEight<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleEight",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFive<Unit Three>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleFive",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFour<Unit Three>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleFour",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Three>(2)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleOne",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleSeven<Unit Three>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleSeven",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleSix<Unit Three>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleSix",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleThree<Unit Three>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleThree",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit Three>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleTwo",
+            "projectName": "Unit Three"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Main<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.blackjack.Main",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-blackjack<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.blackjack.blackjack",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.ExampleOne",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayfive.ExampleTwo",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Two>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleOne",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit Two>(1)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.dayone.ExampleTwo",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFive<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleFive",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleFour<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleFour",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleOne<Unit Two>(2)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleOne",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleThree<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleThree",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ExampleTwo<Unit Two>(2)",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.daytwo.ExampleTwo",
+            "projectName": "Unit Two"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ThreeCardPoker<Unit Two>",
+            "request": "launch",
+            "mainClass": "com.bayviewglen.poker.ThreeCardPoker",
+            "projectName": "Unit Two"
+        }
+    ]
+}
