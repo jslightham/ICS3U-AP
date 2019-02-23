@@ -290,9 +290,8 @@ try{
 	 *   getCurrent may not be called.
 	 **/
 	public double getCurrent( ){
-		if(!isCurrent()) {
+		if(!isCurrent()) 
 			throw new IllegalStateException();
-		}
 		return data[currentIndex];
 	}
 /**
@@ -303,10 +302,7 @@ try{
 	 *   true (there is a current element) or false (there is no current element at the moment)
 	 **/
 	public boolean isCurrent( ){ //see if sequence has a specified current element
-		if(currentIndex == 0 || currentIndex >= manyItems)
-			return false;
-		return true;
-		//return manyItems != currentIndex;
+		return manyItems != currentIndex;
 	}
 /**
 	 * Remove the current element from this sequence.
@@ -323,15 +319,14 @@ try{
 	 *   removeCurrent may not be called. 
 	 **/
 	public void removeCurrent( ){
-		if(!isCurrent()) {
-			//throw new IllegalStateException();
+		if(currentIndex == manyItems) {
+			throw new IllegalStateException();
 		}else {
-			for(int i = currentIndex; i<manyItems - 1; i--) {
+			for(int i = currentIndex; i<manyItems - 1; i++) {
 				data[i] = data[i+1];
 			}
 			manyItems--;
 		}
-		
 }
 /**
 	 * Determine the number of elements in this sequence.
